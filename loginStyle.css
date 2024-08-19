@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+
+    height: 90px;
+}
+
+header ul{
+    width: 25%;
+}
+
+.containerLinks, .containerIcones{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    
+    list-style: none; 
+}
+
+.containerLinks a, .containerIcones a{
+    text-decoration: none;
+}
+
+.containerIcones img{
+    width: 25px;
+}
