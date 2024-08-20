@@ -4,14 +4,23 @@
     box-sizing: border-box;
 }
 
+/* Estilização da Header */
+
 header{
+    background-color: #F4C4B4;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     padding: 0 30px;
 
-    height: 90px;
+    height: 70px;
+
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    bottom: 0;
 }
 
 header ul{
@@ -32,4 +41,51 @@ header ul{
 
 .containerIcones img{
     width: 25px;
+}
+
+/* estilização da main */
+
+.sessaoLogin{
+    display: flex;
+
+    margin-top: 70px;
+}
+
+.containerLogin, figure{
+    width: 50%;
+    height: 100vh;
+}
+
+h1{
+    font-size: 60px;
+    padding-bottom: 80px;
+}
+
+.containerLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerLogin > form{
+    display: flex;
+    flex-direction: column;
+}
+
+.containerLogin > form > input{
+    width: 600px;
+}
+
+
+
+figure > img{
+    width: 90%;
+    height: 90vh;
+}
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
