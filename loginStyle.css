@@ -5,10 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background: rgb(236,192,189);
+background: radial-gradient(circle, rgba(236,192,189,1) 0%, rgba(237,167,105,0.8883928571428571) 99%);
+}
+
 /* Estilização da Header */
 
 header{
-    background-color: #F4C4B4;
+    background: #F4C4B4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,14 +79,26 @@ h1{
 .containerLogin > form{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+
+.containerLogin > form > button{
+    background-color: #FFBABA;
+
+    width: 25%;
+    margin: 0;
 }
 
 .containerLogin > form > input{
-    background-color: #D9D9D9;
+    background-color: #e1d7d7;
     width: 500px;
     height: 30px;
 
+    margin-bottom: 20px;
+
     border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
