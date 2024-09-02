@@ -6,8 +6,7 @@
 }
 
 body{
-    background: rgb(236,192,189);
-background: radial-gradient(circle, rgba(236,192,189,1) 0%, rgba(237,167,105,0.8883928571428571) 99%);
+    background: #e3e0e0;
 }
 
 /* Estilização da Header */
@@ -48,4 +47,26 @@ header ul{
 
 .containerIcones img{
     width: 25px;
+}
+
+/* main */
+main{
+    margin-top: 70px;
+}
+
+.sessaoRoupas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 50px 45px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 350px;
+    width: 250px;
 }
