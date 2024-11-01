@@ -50,11 +50,17 @@
             <button type="submit" id="busca">Buscar</button>
         </form>
 
-        <ul>
-            <li id="rua"></li>
-            <li id="bairro"></li>
-            <li id="localidade"></li>
-        </ul>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2>Endereço Encontrado</h2>
+                <p><strong>Rua:</strong> <span id="rua"></span></p>
+                <p><strong>Bairro:</strong> <span id="bairro"></span></p>
+                <p><strong>Cidade:</strong> <span id="localidade"></span></p>
+                <p><strong>Estado:</strong> <span id="uf"></span></p>
+            </div>
+        </div>
+        
 
         <section class="sessaoRoupas">
             <article>
